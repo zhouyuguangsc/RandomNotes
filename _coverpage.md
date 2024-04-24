@@ -1,7 +1,5 @@
 <!-- _coverpage.md -->
-
-[外链图片转存失败,源站可能有防盗链机制,建议将图片保存下来直接上传(img-qZ6dXl8H-1637505148577)(_media/icon.svg)]
-
+# 封面页
 # docsify <small>3.5</small>
 
 > 一个神奇的文档网站生成器。
@@ -11,4 +9,4 @@
 - 众多主题
 
 [GitHub](https://github.com/docsifyjs/docsify/)
-[Get Started](#/)
+[开始](README.md)

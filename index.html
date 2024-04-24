@@ -6,15 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"/>
   </head>
   <body>
     <div id="app">加载中，请稍后...</div>
     <script>
       window.$docsify = {
+        name:"Random Notes",
         coverpage: true, //默认加载 _coverpage.md，来作为封面的格式
-        loadNavbar: true, // 默认加载 _navbar.md，作为顶部导航栏
-        loadSidebar: true, // 默认加载 _sidebar.md，作为侧边栏
+        onlyCover: true,
+        loadNavbar: true, // 默认加载 _navbar.md，来作为导航栏
+        alias: {
+          '/.*/navbar.md': '/_navbar.md'
+        },
+        loadSidebar: true, // 默认加载 _sidebar.md，作为侧边栏,从每个级别目录加载
         subMaxLevel: 3, // 生成目录的最大层级
         search: {
           paths: 'auto',
@@ -24,10 +29,12 @@
         },
       };
     </script>
-    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
     <!-- 搜索插件 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
     <!-- 一键复制插件 -->
     <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+    <!-- 放大图片 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   </body>
 </html>
