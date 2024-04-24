@@ -9,12 +9,25 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">加载中，请稍后...</div>
     <script>
       window.$docsify = {
-        //...
+        coverpage: true, //默认加载 _coverpage.md，来作为封面的格式
+        loadNavbar: true, // 默认加载 _navbar.md，作为顶部导航栏
+        loadSidebar: true, // 默认加载 _sidebar.md，作为侧边栏
+        subMaxLevel: 3, // 生成目录的最大层级
+        search: {
+          paths: 'auto',
+          placeholder: '搜索',
+          noData: '找不到结果',
+          depth: 3,
+        },
       };
     </script>
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <!-- 搜索插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <!-- 一键复制插件 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
   </body>
 </html>
