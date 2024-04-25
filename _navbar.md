@@ -1,11 +1,32 @@
-* C#
-  * [win环境搭建](https://blog.csdn.net/Mark_md/article/details/120132945?spm=1001.2014.3001.5501)
-  * [视频]()
-  * [ESP-IDF](https://blog.csdn.net/mark_md/category_10794878.html)
-  * [Arduino](https://blog.csdn.net/mark_md/category_11477137.html)
-    
+* .Net源码
+  * [.NET Framework Source Browse](https://referencesource.microsoft.com/ ".NET Framework 在线源码浏览")
+  * [.NET Source Browse](https://source.dot.net// ".NET 在线源码浏览")
+
+* 数据库
+  * SQL Server
+  * MongoDB
+  * Neo4j
+  * Nebula
+
+* 部署或运维
+  * Docker
+    * [官方文档](https://docs.docker.com/get-started/overview/)
+  * Docker-Compose
+  * K8s
+
+* 监控
+  * OpenTelemetry
+    * [官方文档](https://opentelemetry.io/docs/)
+
+* Nginx
+
+* Redis
+
+* RabbitMQ
+  * [官方文档](https://www.rabbitmq.com/docs)
+
+* Dapr
+  * [官方文档](https://docs.dapr.io/zh-hans/)
+
 * WPF
-  * [Github](https://github.com/ZhiliangMa/easyio-lib-for-esp32)
-  * [LVGL](https://github.com/ZhiliangMa/lv_port_esp32)
-  * [原理图](https://github.com/ZhiliangMa/easyio-lib-for-esp32/blob/master/Schematic_ESP32-IOT-KIT_2021-11-16.pdf)
-  * [店铺]()
+  * [WPF学习中文网](https://www.wpfsoft.com/)

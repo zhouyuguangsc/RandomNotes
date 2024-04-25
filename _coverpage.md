@@ -8,5 +8,6 @@
 - 无需生成 html 文件
 - 众多主题
 
-[GitHub](https://github.com/docsifyjs/docsify/)
+[docsify GitHub](https://github.com/docsifyjs/docsify/)
+[docsify Doc](https://docsify.js.org/#/?id=docsify)
 [开始](README.md)
