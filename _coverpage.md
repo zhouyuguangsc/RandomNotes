@@ -10,4 +10,4 @@
 
 [docsify GitHub](https://github.com/docsifyjs/docsify/)
 [docsify Doc](https://docsify.js.org/#/?id=docsify)
-[开始](README.md)
+[开始](home/README.md)

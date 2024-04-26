@@ -10,13 +10,13 @@
 
 * 部署或运维
   * Docker
-    * [官方文档](https://docs.docker.com/get-started/overview/)
+  * [官方文档](https://docs.docker.com/get-started/overview/)
   * Docker-Compose
   * K8s
 
 * 监控
   * OpenTelemetry
-    * [官方文档](https://opentelemetry.io/docs/)
+  * [官方文档](https://opentelemetry.io/docs/)
 
 * Nginx
 
