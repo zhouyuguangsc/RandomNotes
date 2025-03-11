@@ -2,8 +2,9 @@
 ```
 services.AddJwt<JwtHandler>(enableGlobalAuthorize: true, jwtBearerConfigure: options =>
 {
-    var a = new ShortHS256KeyCryptoProvider();
-    CryptoProviderFactory.Default.CustomCryptoProvider = a;
+    // 方法1：添加自定义加密类型
+    CryptoProviderFactory.Default.CustomCryptoProvider = new ShortHS256KeyCryptoProvider();
+    // 方法2：自定义密钥解析
     options.TokenValidationParameters.IssuerSigningKeyResolver = (tokenString, securityToken, identifier, parameters) =>
     {
         string alg = null;
@@ -38,6 +39,7 @@ services.AddJwt<JwtHandler>(enableGlobalAuthorize: true, jwtBearerConfigure: opt
     }
 });
 
+// 自定义加密类型
 public class ShortHS256KeyCryptoProvider : ICryptoProvider
 {
     public object Create(string algorithm, params object[] args)
