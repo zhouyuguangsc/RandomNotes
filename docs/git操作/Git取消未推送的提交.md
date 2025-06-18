@@ -42,3 +42,5 @@ git reset --hard HEAD^^^  # 回退上上上一个版本
 - HEAD^3 上上上一个版本
 ......以此类推
 
+## Visual Studio操作说明：
+![alt text](image/1750236081080.jpg)
